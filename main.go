@@ -1,9 +1,12 @@
 package main
 
 import (
+<<<<<<< HEAD
 	"fmt"
 	"go/scanner"
 	"go/token"
+=======
+>>>>>>> test/master
 	"test/myFunc"
 )
 
