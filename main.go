@@ -1,13 +1,10 @@
 package main
 
 import (
-<<<<<<< HEAD
 	"fmt"
-	"go/scanner"
 	"go/token"
-=======
->>>>>>> test/master
 	"test/myFunc"
+	"text/scanner"
 )
 
 func main() {
@@ -36,5 +33,5 @@ func main() {
 		}
 		fmt.Printf("%s\t%s\t%q\n", fset.Position(pos), tok, lit)
 	}
-
+	fmt.Println(`ok`)
 }
